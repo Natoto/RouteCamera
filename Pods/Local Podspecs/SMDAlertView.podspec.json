@@ -1,0 +1,23 @@
+{
+  "name": "SMDAlertView",
+  "version": "0.0.2",
+  "summary": "SMDAlertView desc",
+  "homepage": "https://github.com/natoto",
+  "authors": {
+    "summer-liu": "787038442@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "."
+  },
+  "source_files": "SMDAlertView/*.{h,m}",
+  "frameworks": "UIKit",
+  "requires_arc": true,
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}

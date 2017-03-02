@@ -1,0 +1,21 @@
+{
+  "name": "ZMCreditSDK",
+  "version": "0.0.2",
+  "summary": "ZMCreditSDK desc",
+  "homepage": "https://github.com/natoto",
+  "authors": {
+    "nonato": "787038442@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "."
+  },
+  "source_files": "ZMCreditSDK/**/*.{h,m}",
+  "frameworks": "UIKit",
+  "requires_arc": true,
+  "vendored_frameworks": "ZMCreditSDK/*.framework",
+  "resources": "ZMCreditSDK/*.bundle",
+  "vendored_libraries": "ZMCreditSDK/*.a"
+}

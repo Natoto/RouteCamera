@@ -1,0 +1,1 @@
+../../../../../../../fenda_ios/branches/fenda1025/LocalPod/AlipaySDK/AlipaySDK.framework/Headers/AlipaySDK.h

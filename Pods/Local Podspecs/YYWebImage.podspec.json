@@ -1,0 +1,17 @@
+{
+  "name": "YYWebImage",
+  "version": "1.0.0",
+  "summary": "yywebimage",
+  "homepage": "https://github.com/natoto",
+  "authors": {
+    "summer-liu": "787038442@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "."
+  },
+  "source_files": "YYWebImage/**/*.{h,m}",
+  "requires_arc": true
+}

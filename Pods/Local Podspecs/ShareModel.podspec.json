@@ -1,0 +1,52 @@
+{
+  "name": "ShareModel",
+  "version": "0.0.4",
+  "summary": "ManageLocalCode desc",
+  "homepage": "https://github.com/natoto",
+  "authors": {
+    "summer-liu": "787038442@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "."
+  },
+  "source_files": "ShareModel/XMShareView/**/*.{h,m}",
+  "resources": "ShareModel/XMShareView/**/*.{png,jpg}",
+  "frameworks": "UIKit",
+  "requires_arc": true,
+  "default_subspecs": "Vendor",
+  "subspecs": [
+    {
+      "name": "Vendor",
+      "subspecs": [
+        {
+          "name": "Tencent",
+          "vendored_frameworks": "ShareModel/Vendor/Tencent/TencentOpenAPI.framework",
+          "resources": "ShareModel/Vendor/Tencent/TencentOpenApi_IOS_Bundle.bundle",
+          "libraries": "sqlite3"
+        },
+        {
+          "name": "SinaWeiboSDK",
+          "vendored_libraries": "ShareModel/Vendor/libWeiboSDK/*.a",
+          "resources": "ShareModel/Vendor/libWeiboSDK/WeiboSDK.bundle",
+          "frameworks": [
+            "ImageIO",
+            "AdSupport"
+          ],
+          "libraries": "sqlite3",
+          "source_files": "ShareModel/Vendor/libWeiboSDK/*.{h,m}",
+          "public_header_files": "ShareModel/Vendor/libWeiboSDK/*.h"
+        },
+        {
+          "name": "Weixin",
+          "vendored_libraries": "ShareModel/Vendor/Weixin/*.a",
+          "source_files": "ShareModel/Vendor/Weixin/*.{h,m}",
+          "public_header_files": "ShareModel/Vendor/Weixin/*.h",
+          "libraries": "sqlite3"
+        }
+      ]
+    }
+  ]
+}

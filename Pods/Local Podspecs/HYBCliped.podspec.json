@@ -1,0 +1,19 @@
+{
+  "name": "HYBCliped",
+  "version": "0.0.5",
+  "summary": "HYBCliped desc",
+  "homepage": "https://github.com/natoto",
+  "authors": {
+    "summer-liu": "787038442@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "."
+  },
+  "source_files": "HYBCliped/**/*.{h,m,mm}",
+  "resources": "HYBCliped/**/*.{jpg,png,plist,xib}",
+  "frameworks": "UIKit",
+  "requires_arc": true
+}

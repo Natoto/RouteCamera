@@ -17,6 +17,7 @@
 		592FF8B918ECBD7600C164F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592FF8B818ECBD7600C164F8 /* Foundation.framework */; };
 		592FF8BB18ECBD7600C164F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592FF8BA18ECBD7600C164F8 /* CoreGraphics.framework */; };
 		5993C7721D5D4E980048CE6A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5993C7711D5D4E980048CE6A /* Accelerate.framework */; };
+		5BBDCC0D74F31439B492A4CA /* libPods-RouteCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE68656C28590CAA29F1B2C /* libPods-RouteCamera.a */; };
 		F86269271E67AF940054E159 /* libprotobuf-lite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F86269251E67AF940054E159 /* libprotobuf-lite.a */; };
 		F86269281E67AF940054E159 /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F86269261E67AF940054E159 /* libprotobuf.a */; };
 		F862693D1E67C2B10054E159 /* CameraExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F86269311E67C2B10054E159 /* CameraExampleAppDelegate.m */; };
@@ -27,9 +28,15 @@
 		F86269421E67C2B10054E159 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = F86269391E67C2B10054E159 /* main.mm */; };
 		F86269431E67C2B10054E159 /* squarePNG.png in Resources */ = {isa = PBXBuildFile; fileRef = F862693A1E67C2B10054E159 /* squarePNG.png */; };
 		F86269441E67C2B10054E159 /* tensorflow_utils.mm in Sources */ = {isa = PBXBuildFile; fileRef = F862693C1E67C2B10054E159 /* tensorflow_utils.mm */; };
+		F86269DC1E67FA540054E159 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86269DB1E67FA540054E159 /* CoreMotion.framework */; };
+		F86269DE1E67FB650054E159 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F86269DD1E67FB650054E159 /* libsqlite3.tbd */; };
+		F86269E01E67FB7C0054E159 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86269DF1E67FB7C0054E159 /* CFNetwork.framework */; };
+		F86269E21E67FBF50054E159 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86269E11E67FBF50054E159 /* AFNetworking.framework */; };
+		F86269E41E67FC450054E159 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86269E31E67FC450054E159 /* ImageIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CE68656C28590CAA29F1B2C /* libPods-RouteCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RouteCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		591D3EC41CFF7F120059011C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		591D3EC61CFF7F370059011C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		591D3EC81CFF7F500059011C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
@@ -39,10 +46,12 @@
 		591D3ED71CFFA83A0059011C /* grace_hopper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grace_hopper.jpg; sourceTree = "<group>"; };
 		591D3ED81CFFA83A0059011C /* imagenet_comp_graph_label_strings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = imagenet_comp_graph_label_strings.txt; sourceTree = "<group>"; };
 		591D3ED91CFFA83A0059011C /* tensorflow_inception_graph.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = tensorflow_inception_graph.pb; sourceTree = "<group>"; };
-		592FF8B518ECBD7600C164F8 /* CameraExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		592FF8B518ECBD7600C164F8 /* RouteCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouteCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		592FF8B818ECBD7600C164F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		592FF8BA18ECBD7600C164F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5993C7711D5D4E980048CE6A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		60EE012CBDA17AAA72DE0846 /* Pods-RouteCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouteCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RouteCamera/Pods-RouteCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		A4E96D8934F5EE898AA4E625 /* Pods-RouteCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouteCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-RouteCamera/Pods-RouteCamera.release.xcconfig"; sourceTree = "<group>"; };
 		F86269251E67AF940054E159 /* libprotobuf-lite.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libprotobuf-lite.a"; path = "tensorflow/libprotobuf-lite.a"; sourceTree = "<group>"; };
 		F86269261E67AF940054E159 /* libprotobuf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotobuf.a; path = tensorflow/libprotobuf.a; sourceTree = "<group>"; };
 		F86269301E67C2B10054E159 /* CameraExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraExampleAppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +66,11 @@
 		F862693A1E67C2B10054E159 /* squarePNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squarePNG.png; sourceTree = "<group>"; };
 		F862693B1E67C2B10054E159 /* tensorflow_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tensorflow_utils.h; sourceTree = "<group>"; };
 		F862693C1E67C2B10054E159 /* tensorflow_utils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = tensorflow_utils.mm; sourceTree = "<group>"; };
+		F86269DB1E67FA540054E159 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		F86269DD1E67FB650054E159 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
+		F86269DF1E67FB7C0054E159 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		F86269E11E67FBF50054E159 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../Library/Developer/Xcode/DerivedData/RouteCamera-cyhfygudjgowhjfaurgmigydzthj/Build/Products/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		F86269E31E67FC450054E159 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +78,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86269E41E67FC450054E159 /* ImageIO.framework in Frameworks */,
+				F86269E21E67FBF50054E159 /* AFNetworking.framework in Frameworks */,
+				F86269E01E67FB7C0054E159 /* CFNetwork.framework in Frameworks */,
+				F86269DE1E67FB650054E159 /* libsqlite3.tbd in Frameworks */,
+				F86269DC1E67FA540054E159 /* CoreMotion.framework in Frameworks */,
 				5993C7721D5D4E980048CE6A /* Accelerate.framework in Frameworks */,
 				F86269271E67AF940054E159 /* libprotobuf-lite.a in Frameworks */,
 				591D3ECF1CFF7FCE0059011C /* ImageIO.framework in Frameworks */,
@@ -73,6 +92,7 @@
 				F86269281E67AF940054E159 /* libprotobuf.a in Frameworks */,
 				592FF8BB18ECBD7600C164F8 /* CoreGraphics.framework in Frameworks */,
 				592FF8B918ECBD7600C164F8 /* Foundation.framework in Frameworks */,
+				5BBDCC0D74F31439B492A4CA /* libPods-RouteCamera.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,13 +116,14 @@
 				592FF8BE18ECBD7600C164F8 /* CameraExample */,
 				592FF8B718ECBD7600C164F8 /* Frameworks */,
 				592FF8B618ECBD7600C164F8 /* Products */,
+				75CF65CF06C79F8C6D192B4F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		592FF8B618ECBD7600C164F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				592FF8B518ECBD7600C164F8 /* CameraExample.app */,
+				592FF8B518ECBD7600C164F8 /* RouteCamera.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +131,11 @@
 		592FF8B718ECBD7600C164F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F86269E31E67FC450054E159 /* ImageIO.framework */,
+				F86269E11E67FBF50054E159 /* AFNetworking.framework */,
+				F86269DF1E67FB7C0054E159 /* CFNetwork.framework */,
+				F86269DD1E67FB650054E159 /* libsqlite3.tbd */,
+				F86269DB1E67FA540054E159 /* CoreMotion.framework */,
 				5993C7711D5D4E980048CE6A /* Accelerate.framework */,
 				F86269251E67AF940054E159 /* libprotobuf-lite.a */,
 				F86269261E67AF940054E159 /* libprotobuf.a */,
@@ -121,6 +147,7 @@
 				591D3EC41CFF7F120059011C /* AVFoundation.framework */,
 				592FF8B818ECBD7600C164F8 /* Foundation.framework */,
 				592FF8BA18ECBD7600C164F8 /* CoreGraphics.framework */,
+				1CE68656C28590CAA29F1B2C /* libPods-RouteCamera.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,6 +159,15 @@
 			);
 			name = CameraExample;
 			path = SimpleExample;
+			sourceTree = "<group>";
+		};
+		75CF65CF06C79F8C6D192B4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60EE012CBDA17AAA72DE0846 /* Pods-RouteCamera.debug.xcconfig */,
+				A4E96D8934F5EE898AA4E625 /* Pods-RouteCamera.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		F862692F1E67C2B10054E159 /* RouteCamera */ = {
@@ -156,21 +192,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		592FF8B418ECBD7600C164F8 /* CameraExample */ = {
+		592FF8B418ECBD7600C164F8 /* RouteCamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 592FF8E318ECBD7600C164F8 /* Build configuration list for PBXNativeTarget "CameraExample" */;
+			buildConfigurationList = 592FF8E318ECBD7600C164F8 /* Build configuration list for PBXNativeTarget "RouteCamera" */;
 			buildPhases = (
+				0BDA41911E2BB350C87B7E9F /* [CP] Check Pods Manifest.lock */,
 				592FF8B118ECBD7600C164F8 /* Sources */,
 				592FF8B218ECBD7600C164F8 /* Frameworks */,
 				592FF8B318ECBD7600C164F8 /* Resources */,
+				ABF6C3A2AB75CF5329ED725C /* [CP] Embed Pods Frameworks */,
+				740D66F8F35C2FA327DCA085 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CameraExample;
+			name = RouteCamera;
 			productName = SimpleExample;
-			productReference = 592FF8B518ECBD7600C164F8 /* CameraExample.app */;
+			productReference = 592FF8B518ECBD7600C164F8 /* RouteCamera.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -183,6 +222,7 @@
 				TargetAttributes = {
 					592FF8B418ECBD7600C164F8 = {
 						DevelopmentTeam = 32M62TMXC7;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -198,7 +238,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				592FF8B418ECBD7600C164F8 /* CameraExample */,
+				592FF8B418ECBD7600C164F8 /* RouteCamera */,
 			);
 		};
 /* End PBXProject section */
@@ -218,6 +258,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BDA41911E2BB350C87B7E9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		740D66F8F35C2FA327DCA085 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RouteCamera/Pods-RouteCamera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABF6C3A2AB75CF5329ED725C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RouteCamera/Pods-RouteCamera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		592FF8B118ECBD7600C164F8 /* Sources */ = {
@@ -251,17 +339,20 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
 		592FF8B018ECBD3600C164F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				OTHER_LDFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
 		592FF8DF18ECBD7600C164F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60EE012CBDA17AAA72DE0846 /* Pods-RouteCamera.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -300,28 +391,33 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
 					"$(SRCROOT)/tensorflow/proto",
 					"$(SRCROOT)/tensorflow/downloads/eigen",
 					"$(SRCROOT)/tensorflow/downloads",
 					"$(SRCROOT)/tensorflow/downloads/protobuf/src/",
-					"$(SRCROOT)/../../../..",
 					"$(SRCROOT)/",
 					"$(SRCROOT)/third_party/eigen3/unsupported",
+					"$(inherited)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/RouteCamera/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
 					"$(SRCROOT)/third_party/eigen3/unsupported",
 					"$(PROJECT_DIR)/tensorflow",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
 					"-force_load",
 					"$(SRCROOT)/tensorflow/libtensorflow-core.a",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yy.RouteCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -330,6 +426,7 @@
 		};
 		592FF8E018ECBD7600C164F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E96D8934F5EE898AA4E625 /* Pods-RouteCamera.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -362,28 +459,33 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
 					"$(SRCROOT)/tensorflow/proto",
 					"$(SRCROOT)/tensorflow/downloads/eigen",
 					"$(SRCROOT)/tensorflow/downloads",
 					"$(SRCROOT)/tensorflow/downloads/protobuf/src/",
-					"$(SRCROOT)/../../../..",
 					"$(SRCROOT)/",
 					"$(SRCROOT)/third_party/eigen3/unsupported",
+					"$(inherited)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/RouteCamera/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
 					"$(SRCROOT)/third_party/eigen3/unsupported",
 					"$(PROJECT_DIR)/tensorflow",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
 					"-force_load",
 					"$(SRCROOT)/tensorflow/libtensorflow-core.a",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yy.RouteCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "arm64 armv7 armv7s";
@@ -403,7 +505,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		592FF8E318ECBD7600C164F8 /* Build configuration list for PBXNativeTarget "CameraExample" */ = {
+		592FF8E318ECBD7600C164F8 /* Build configuration list for PBXNativeTarget "RouteCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				592FF8DF18ECBD7600C164F8 /* Debug */,

@@ -1,0 +1,248 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AlipaySDK (0.0.2)
+  - Bugtags (2.2.0):
+    - Bugtags/Core (= 2.2.0)
+  - Bugtags/Core (2.2.0)
+  - CountDownButton (0.0.2)
+  - FDFullscreenPopGesture (0.0.2)
+  - FMDB (0.0.2)
+  - GCDWebServer (3.3.3):
+    - GCDWebServer/Core (= 3.3.3)
+  - GCDWebServer/Core (3.3.3)
+  - GPUImage (0.1.7)
+  - HBCacheCenter (0.0.2):
+    - FMDB
+  - HBDictionaryKit (0.1.5):
+    - Masonry
+  - HBExtension (0.0.5):
+    - FDFullscreenPopGesture
+    - HBKit
+    - MJRefresh
+    - NIAttributedLabel
+    - YYWebImage
+  - HBFPSLabel (0.0.1)
+  - HBImagePreView (0.0.1):
+    - YYWebImage
+  - HBKit (0.6.52)
+  - HBKitRefresh (0.6.33):
+    - HBKit
+    - MJRefresh
+  - HBKitWatchDog (0.6.33):
+    - HBKit
+  - HBRouter (0.0.1)
+  - HYBCliped (0.0.5)
+  - IAPKit (0.0.1)
+  - JSLoader (0.0.1):
+    - JSPatch
+  - JSONKit (0.0.1)
+  - JSPatch (0.0.1)
+  - Masonry (0.6.4)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.12)
+  - NIAttributedLabel (0.0.1)
+  - NSObject_ObjectMap (0.0.1)
+  - PPSqliteORM (0.0.1):
+    - FMDB
+    - JSONKit
+  - ReactiveObjC (2.1.2)
+  - RKTabarView (0.0.1)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - ShareModel (0.0.4):
+    - ShareModel/Vendor (= 0.0.4)
+  - ShareModel/Vendor (0.0.4):
+    - ShareModel/Vendor/SinaWeiboSDK (= 0.0.4)
+    - ShareModel/Vendor/Tencent (= 0.0.4)
+    - ShareModel/Vendor/Weixin (= 0.0.4)
+  - ShareModel/Vendor/SinaWeiboSDK (0.0.4)
+  - ShareModel/Vendor/Tencent (0.0.4)
+  - ShareModel/Vendor/Weixin (0.0.4)
+  - SMDAlertView (0.0.2):
+    - Masonry
+  - SMDBase (0.0.5):
+    - HBExtension
+    - HBKit
+    - HBKitRefresh
+    - HBKitWatchDog
+    - MJRefresh
+    - NIAttributedLabel
+  - SMDNetWork (0.0.1):
+    - AFNetworking
+  - WebViewJavascriptBridge (6.0.2)
+  - XYRuntime (0.0.2)
+  - YYWebImage (1.0.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - AlipaySDK (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - Bugtags
+  - CountDownButton (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - FDFullscreenPopGesture (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - FMDB (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - GCDWebServer (~> 3.0)
+  - GPUImage (~> 0.1.7)
+  - HBCacheCenter (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - HBDictionaryKit (from `https://github.com/Natoto/HBDictionaryKit.git`, tag `0.1.5`)
+  - HBExtension (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - HBFPSLabel (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - HBImagePreView (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - HBKit (from `https://github.com/Natoto/HBFastTableViewCotroller.git`, tag `0.6.52`)
+  - HBKitRefresh (from `https://github.com/Natoto/HBFastTableViewCotroller.git`, tag `0.6.34`)
+  - HBKitWatchDog (from `https://github.com/Natoto/HBFastTableViewCotroller.git`, tag `0.6.34`)
+  - HBRouter (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - HYBCliped (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - IAPKit (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - JSLoader (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - JSONKit (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - JSPatch (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - Masonry (~> 0.6.2)
+  - MBProgressHUD (~> 0.9.1)
+  - NIAttributedLabel (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - NSObject_ObjectMap (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - PPSqliteORM (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - ReactiveObjC
+  - RKTabarView (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - SDWebImage
+  - ShareModel (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - SMDAlertView (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - SMDBase (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - SMDNetWork (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - WebViewJavascriptBridge
+  - XYRuntime (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+  - YYWebImage (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
+
+EXTERNAL SOURCES:
+  AlipaySDK:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  CountDownButton:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  FDFullscreenPopGesture:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  FMDB:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  HBCacheCenter:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  HBDictionaryKit:
+    :git: https://github.com/Natoto/HBDictionaryKit.git
+    :tag: 0.1.5
+  HBExtension:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  HBFPSLabel:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  HBImagePreView:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  HBKit:
+    :git: https://github.com/Natoto/HBFastTableViewCotroller.git
+    :tag: 0.6.52
+  HBKitRefresh:
+    :git: https://github.com/Natoto/HBFastTableViewCotroller.git
+    :tag: 0.6.34
+  HBKitWatchDog:
+    :git: https://github.com/Natoto/HBFastTableViewCotroller.git
+    :tag: 0.6.34
+  HBRouter:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  HYBCliped:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  IAPKit:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  JSLoader:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  JSONKit:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  JSPatch:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  NIAttributedLabel:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  NSObject_ObjectMap:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  PPSqliteORM:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  RKTabarView:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  ShareModel:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  SMDAlertView:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  SMDBase:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  SMDNetWork:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  XYRuntime:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+  YYWebImage:
+    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
+
+CHECKOUT OPTIONS:
+  HBDictionaryKit:
+    :git: https://github.com/Natoto/HBDictionaryKit.git
+    :tag: 0.1.5
+  HBKit:
+    :git: https://github.com/Natoto/HBFastTableViewCotroller.git
+    :tag: 0.6.52
+  HBKitRefresh:
+    :git: https://github.com/Natoto/HBFastTableViewCotroller.git
+    :tag: 0.6.34
+  HBKitWatchDog:
+    :git: https://github.com/Natoto/HBFastTableViewCotroller.git
+    :tag: 0.6.34
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AlipaySDK: 7aeeadd055057c8f60e5948c63b7e44cfd2eb237
+  Bugtags: a271155048edb166f20477e3988f69ac52bad051
+  CountDownButton: 7d03ac9578983eb7b69fedebd2578fb70100bef9
+  FDFullscreenPopGesture: 4aac1a3fa122fe6dd75bab725d0fe6d200a5d086
+  FMDB: 5c7cd24f4294fabfaaf9d955d1a8c048c2668818
+  GCDWebServer: 1c39a1f0763e4eb492bee021e4270fce097d3555
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  HBCacheCenter: 7b961ad92befb63d846d9cc6e7a592d80aaee0f7
+  HBDictionaryKit: d69a9fe7f1c3bd618cde722399378af6a57151fd
+  HBExtension: 7d0647686af191a7fe23cee9c8d35ed900bff408
+  HBFPSLabel: 26a2b5d37892d0d8f2e99ec3570aba3bea96b0e6
+  HBImagePreView: 1e02e9ca0ebf4312285173424a3a7f97431cca4c
+  HBKit: 870d0df812af9d6eaa6629b45d04f1c5752ea89d
+  HBKitRefresh: ee244d081f17310862036a9a31bf30ae9f7e68d8
+  HBKitWatchDog: 10aa9f0c33ed298a71820bab66b54348f10a082b
+  HBRouter: 89efab1267412aabf2987f1a905002a2cb8b1898
+  HYBCliped: 86f5a41278760354063a5f3c2535a35532aa8f36
+  IAPKit: 30b387bd06acf474b08c6fbc96c6117217095099
+  JSLoader: 13d8c814d6292eceb4a108d1d19934bcb5ed464e
+  JSONKit: c18f8af09a7e5e469f3348ab80402e4a3ff07bf1
+  JSPatch: d0b966c104b844135b823ad31f3ca9a28bbfa067
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  NIAttributedLabel: b6e43a0c2bfd8d915acf08d1eb02369d673a0b76
+  NSObject_ObjectMap: 8e6b3792a1ccd67ed3dab1ab60a67e53ebca56b2
+  PPSqliteORM: d9882ee9c6827e74f3f5d3f5fd7000243ef91b0e
+  ReactiveObjC: 7b6782ae39f9ac0f57205c3b0c0b69b9dd7048c0
+  RKTabarView: fd6fb4a61ccab2719104c8cd70de04a8948da881
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  ShareModel: 975b3063d7b02d69a3bb867ce0f7516a5dd11c19
+  SMDAlertView: 0bc085c6963cded16c9887c7641a7fe8b102d8b2
+  SMDBase: c50de0afc760755acd914c4847133db3c39f6631
+  SMDNetWork: 499be95931c2c5fb965960b8510639ec534e5858
+  WebViewJavascriptBridge: 791ee0e26d1bf15efe5fb7fb9666a71a19b89d77
+  XYRuntime: 80c129b9331e7b386016a658619c42539383e654
+  YYWebImage: 9b2343a7a12b3e60c7a2b9ba2c73130e730d7ac5
+
+PODFILE CHECKSUM: 575dd332c6bce1a77b432440d6f2e411e4c5a8c9
+
+COCOAPODS: 1.1.1

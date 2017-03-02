@@ -1,0 +1,26 @@
+{
+  "name": "HBImagePreView",
+  "version": "0.0.1",
+  "summary": "HBImagePreView desc",
+  "homepage": "https://github.com/natoto",
+  "authors": {
+    "nonato": "787038442@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "."
+  },
+  "source_files": "HBImagePreView/*.{h,m}",
+  "frameworks": [
+    "UIKit",
+    "MediaPlayer"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "YYWebImage": [
+
+    ]
+  }
+}

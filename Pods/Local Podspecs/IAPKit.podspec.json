@@ -1,0 +1,17 @@
+{
+  "name": "IAPKit",
+  "version": "0.0.1",
+  "summary": "ManageLocalCode desc",
+  "homepage": "https://github.com/natoto",
+  "authors": {
+    "summer-liu": "787038442@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "."
+  },
+  "source_files": "IAPKit/*.{h,m}",
+  "requires_arc": true
+}

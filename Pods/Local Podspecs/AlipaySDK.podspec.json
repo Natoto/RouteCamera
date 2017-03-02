@@ -1,0 +1,19 @@
+{
+  "name": "AlipaySDK",
+  "version": "0.0.2",
+  "summary": "AlipaySDK desc",
+  "homepage": "https://github.com/natoto",
+  "authors": {
+    "nonato": "787038442@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "."
+  },
+  "requires_arc": true,
+  "vendored_frameworks": "AlipaySDK/AlipaySDK.framework",
+  "resources": "AlipaySDK/AlipaySDK.bundle",
+  "libraries": "sqlite3"
+}

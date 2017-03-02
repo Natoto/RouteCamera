@@ -1,0 +1,21 @@
+{
+  "name": "NSObject_ObjectMap",
+  "version": "0.0.1",
+  "summary": "NSObject_ObjectMap desc",
+  "homepage": "https://github.com/natoto",
+  "authors": {
+    "huangbo": "787038442@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "."
+  },
+  "requires_arc": true,
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "source_files": "NSObject_ObjectMap/*.{h,m}"
+}

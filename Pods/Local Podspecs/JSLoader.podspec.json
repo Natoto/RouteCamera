@@ -1,0 +1,27 @@
+{
+  "name": "JSLoader",
+  "version": "0.0.1",
+  "summary": "JSLoader desc",
+  "homepage": "https://github.com/natoto",
+  "authors": {
+    "nonato": "787038442@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "."
+  },
+  "source_files": "JSLoader/**/*.{h,m,c,S}",
+  "resources": "JSLoader/**/*.{js,php}",
+  "requires_arc": true,
+  "frameworks": [
+    "UIKit",
+    "JavaScriptCore"
+  ],
+  "dependencies": {
+    "JSPatch": [
+
+    ]
+  }
+}

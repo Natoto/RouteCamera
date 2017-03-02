@@ -1,0 +1,39 @@
+{
+  "name": "SMDBase",
+  "version": "0.0.5",
+  "summary": "SMDBase desc",
+  "homepage": "https://github.com/natoto",
+  "authors": {
+    "nonato": "787038442@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "."
+  },
+  "source_files": "SMDBase/**/*.{h,m,mm}",
+  "resources": "SMDBase/**/*.{jpg,png,plist,xib}",
+  "frameworks": "UIKit",
+  "requires_arc": true,
+  "dependencies": {
+    "HBKit": [
+
+    ],
+    "HBKitRefresh": [
+
+    ],
+    "HBKitWatchDog": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "NIAttributedLabel": [
+
+    ],
+    "HBExtension": [
+
+    ]
+  }
+}

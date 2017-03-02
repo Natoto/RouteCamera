@@ -1,0 +1,1 @@
+../../../HBDictionaryKit/HBDictionaryKit/UIScrollView+HBDIC.h
