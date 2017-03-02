@@ -53,6 +53,10 @@ static const NSString *AVCaptureStillImageIsCapturingStillImageContext =
 
 @implementation CameraExampleViewController
 
+
+
+
+
 - (void)setupAVCapture {
   NSError *error = nil;
 
