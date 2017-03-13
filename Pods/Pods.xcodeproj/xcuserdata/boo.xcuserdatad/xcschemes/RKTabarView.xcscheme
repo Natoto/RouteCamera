@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '67628BA3CB9FF8CF28E34CAEA45D51D7'
+               BlueprintIdentifier = '96BF4853DDD470CE6160015E82C37293'
                BlueprintName = 'RKTabarView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libRKTabarView.a'>

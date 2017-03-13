@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5E573F7F27C50EB7A6A3BF971F6A0BF5'
+               BlueprintIdentifier = 'A5F1083C229280EF5615AF83F86E98AC'
                BlueprintName = 'SMDBase'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libSMDBase.a'>

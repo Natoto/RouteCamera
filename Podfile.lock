@@ -15,9 +15,9 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - AlipaySDK (0.0.2)
-  - Bugtags (2.2.0):
-    - Bugtags/Core (= 2.2.0)
-  - Bugtags/Core (2.2.0)
+  - Bugtags (2.2.1):
+    - Bugtags/Core (= 2.2.1)
+  - Bugtags/Core (2.2.1)
   - CountDownButton (0.0.2)
   - FDFullscreenPopGesture (0.0.2)
   - FMDB (0.0.2)
@@ -25,8 +25,6 @@ PODS:
     - GCDWebServer/Core (= 3.3.3)
   - GCDWebServer/Core (3.3.3)
   - GPUImage (0.1.7)
-  - HBCacheCenter (0.0.2):
-    - FMDB
   - HBDictionaryKit (0.1.5):
     - Masonry
   - HBExtension (0.0.5):
@@ -97,7 +95,6 @@ DEPENDENCIES:
   - FMDB (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
   - GCDWebServer (~> 3.0)
   - GPUImage (~> 0.1.7)
-  - HBCacheCenter (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
   - HBDictionaryKit (from `https://github.com/Natoto/HBDictionaryKit.git`, tag `0.1.5`)
   - HBExtension (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
   - HBFPSLabel (from `/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod`)
@@ -135,8 +132,6 @@ EXTERNAL SOURCES:
   FDFullscreenPopGesture:
     :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
   FMDB:
-    :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
-  HBCacheCenter:
     :path: "/Users/boo/Documents/fenda_ios/branches/fenda1025/LocalPod"
   HBDictionaryKit:
     :git: https://github.com/Natoto/HBDictionaryKit.git
@@ -206,13 +201,12 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   AlipaySDK: 7aeeadd055057c8f60e5948c63b7e44cfd2eb237
-  Bugtags: a271155048edb166f20477e3988f69ac52bad051
+  Bugtags: 9e057a3cdecd30e4266ee2896dbbb3367262a76b
   CountDownButton: 7d03ac9578983eb7b69fedebd2578fb70100bef9
   FDFullscreenPopGesture: 4aac1a3fa122fe6dd75bab725d0fe6d200a5d086
   FMDB: 5c7cd24f4294fabfaaf9d955d1a8c048c2668818
   GCDWebServer: 1c39a1f0763e4eb492bee021e4270fce097d3555
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
-  HBCacheCenter: 7b961ad92befb63d846d9cc6e7a592d80aaee0f7
   HBDictionaryKit: d69a9fe7f1c3bd618cde722399378af6a57151fd
   HBExtension: 7d0647686af191a7fe23cee9c8d35ed900bff408
   HBFPSLabel: 26a2b5d37892d0d8f2e99ec3570aba3bea96b0e6
@@ -243,6 +237,6 @@ SPEC CHECKSUMS:
   XYRuntime: 80c129b9331e7b386016a658619c42539383e654
   YYWebImage: 9b2343a7a12b3e60c7a2b9ba2c73130e730d7ac5
 
-PODFILE CHECKSUM: 575dd332c6bce1a77b432440d6f2e411e4c5a8c9
+PODFILE CHECKSUM: '09c4c6d26cb6fe52185bbe2b8aa52eabbd8a79a6'
 
 COCOAPODS: 1.1.1

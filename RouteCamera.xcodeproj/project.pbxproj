@@ -31,7 +31,6 @@
 		F86269DC1E67FA540054E159 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86269DB1E67FA540054E159 /* CoreMotion.framework */; };
 		F86269DE1E67FB650054E159 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F86269DD1E67FB650054E159 /* libsqlite3.tbd */; };
 		F86269E01E67FB7C0054E159 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86269DF1E67FB7C0054E159 /* CFNetwork.framework */; };
-		F86269E21E67FBF50054E159 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86269E11E67FBF50054E159 /* AFNetworking.framework */; };
 		F86269E41E67FC450054E159 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86269E31E67FC450054E159 /* ImageIO.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,7 +68,6 @@
 		F86269DB1E67FA540054E159 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		F86269DD1E67FB650054E159 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
 		F86269DF1E67FB7C0054E159 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		F86269E11E67FBF50054E159 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../Library/Developer/Xcode/DerivedData/RouteCamera-cyhfygudjgowhjfaurgmigydzthj/Build/Products/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
 		F86269E31E67FC450054E159 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -79,7 +77,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F86269E41E67FC450054E159 /* ImageIO.framework in Frameworks */,
-				F86269E21E67FBF50054E159 /* AFNetworking.framework in Frameworks */,
 				F86269E01E67FB7C0054E159 /* CFNetwork.framework in Frameworks */,
 				F86269DE1E67FB650054E159 /* libsqlite3.tbd in Frameworks */,
 				F86269DC1E67FA540054E159 /* CoreMotion.framework in Frameworks */,
@@ -132,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				F86269E31E67FC450054E159 /* ImageIO.framework */,
-				F86269E11E67FBF50054E159 /* AFNetworking.framework */,
 				F86269DF1E67FB7C0054E159 /* CFNetwork.framework */,
 				F86269DD1E67FB650054E159 /* libsqlite3.tbd */,
 				F86269DB1E67FA540054E159 /* CoreMotion.framework */,
@@ -338,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "$(inherited)";
 			};
@@ -346,6 +343,7 @@
 		592FF8B018ECBD3600C164F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "$(inherited)";
 			};
 			name = Release;

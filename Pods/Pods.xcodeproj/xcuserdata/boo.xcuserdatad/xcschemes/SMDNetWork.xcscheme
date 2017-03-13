@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'FD5DF5DC9CF9831C0458AC16CD4F08D2'
+               BlueprintIdentifier = '7F71436B2FFE2275F1C3D9B779C4263D'
                BlueprintName = 'SMDNetWork'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libSMDNetWork.a'>

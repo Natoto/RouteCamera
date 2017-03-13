@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6981268F4CFDFADA7D988C70F80FFE59'
+               BlueprintIdentifier = '81C44ECA561FD12D5052EFABCEB1EAEB'
                BlueprintName = 'PPSqliteORM'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPPSqliteORM.a'>
